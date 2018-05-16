@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="61ce7416-9ffd-4cdf-aeea-6a919dc5936a" name="xcx" url="https://fwpt.ineusoft.com.cn/">
+        <fileTransfer host="39.106.62.57" port="22" rootFolder="/data/wwwroot/fwpt.ineusoft.com.cn/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

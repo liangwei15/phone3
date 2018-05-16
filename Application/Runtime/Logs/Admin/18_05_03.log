@@ -1,0 +1,58 @@
+[ 2018-05-03T15:49:53+08:00 ] ::1 /che/index.php/Admin/Index/shijiayuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021515s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0447s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0625s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_shijia shijia WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and shijia.did=displacement.did and zhuangtai=1  ) ORDER BY yid desc  [ RunTime:0.0702s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\c5810f7dc7d3da29113da339d8818178.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.282347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.282608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020328s ]
+
+[ 2018-05-03T15:49:53+08:00 ] ::1 /che/index.php/Admin/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2018-05-03T21:08:00+08:00 ] ::1 /che/index.php/Admin/Index/shijiayuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.066710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.066865s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0230s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_shijia shijia WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and shijia.did=displacement.did and zhuangtai=1  ) ORDER BY yid desc  [ RunTime:0.0253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\c5810f7dc7d3da29113da339d8818178.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.350041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.350232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014146s ]
+
+[ 2018-05-03T21:08:01+08:00 ] ::1 /che/index.php/Admin/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+

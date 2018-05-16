@@ -1,0 +1,11 @@
+[ 2018-04-28T22:38:08+08:00 ] ::1 /che/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017783s ]
+

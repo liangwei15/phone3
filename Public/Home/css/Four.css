@@ -1,0 +1,49 @@
+.out {
+    background-color: #FDFDFE;
+}
+
+.tp {
+    width: 20%;
+    display: block;
+    margin: 30px auto 20px auto;
+
+}
+
+.big {
+    font-size: 20px;
+    text-align: center;
+}
+
+.small {
+    color: #969696;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.one {
+    float: left;
+    height: 50px;
+    font-size: 16px;
+    color: #ccc;
+    line-height: 50px;
+    width: 44%;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 4%;
+    border: 1px solid #E0E0E0;
+}
+
+.two {
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    background-color: #48CDEA;
+    text-align: center;
+    color: #fff;
+    width: 41%;
+    border-radius: 8px;
+    margin-right: 4%;
+}

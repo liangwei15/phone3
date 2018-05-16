@@ -1,0 +1,24 @@
+[ 2018-05-11T17:04:47+08:00 ] ::1 /phone2/Public/404-html/css/texgyreschola-bold-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-11T17:04:47+08:00 ] ::1 /phone2/Public/404-html/css/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-11T17:22:40+08:00 ] ::1 /phone2/index.php/Index/six/id/20180511172240.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+ERR: 无法加载模块:Index
+
+[ 2018-05-11T17:22:59+08:00 ] ::1 /phone2/index.php/Index/six/id/20180511172240.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Index
+

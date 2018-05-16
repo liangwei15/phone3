@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+    <title>list</title>
+    <link type="text/css" href="__PUBLIC__/Home/css/index.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="out" >
+
+    <div class="top" >
+        <p class="top-1">
+            订单列表
+        </p>
+    </div>
+    <volist name="tm" id="vo">
+    <div class="out-1" style="margin-top: 10%">
+        <div class="out-2">
+            <p class="coding">
+                订单编码：{$vo.rand}
+            <p class="coding-1">
+            <if condition="$vo.zhuangtai eq 1">订单已提交
+                <elseif condition="$vo.zhuangtai eq 2"/>订单已取消
+                <else />
+            </if>
+            </p>
+            </p>
+        </div>
+        <div class="clear"></div>
+        <div class="out-3">
+            <p class="iphone">
+                {$vo.phonename}
+            </p>
+            <p class="gray">
+                屏碎（不能现实操作）
+            </p>
+        </div>
+        <div class="out-4">
+            <p class="money">
+                合计（估计）：￥{$vo['all_price'] - $vo['price']-$vo['r_price']}
+            </p>
+
+        </div>
+    </div>
+    </volist>
+</div>
+
+
+</body>
+</html>

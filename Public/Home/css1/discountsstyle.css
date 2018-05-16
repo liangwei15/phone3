@@ -1,0 +1,37 @@
+/*
+	作者：张津瑞
+	时间：2018-04-16
+	描述：(c) Copyright 2018 睿腾网络. All Rights Reserved. 
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.top {
+	background: #282727;
+	width: 100%;
+	color: white;
+	padding: 3% 0 3% 0;
+}
+
+.return {
+	padding-left: 32%;
+}
+
+.return_1 {
+	padding-left: 5%;
+	font-size: 25px;
+}
+
+.youhui_1 {
+	margin-top: 15%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}

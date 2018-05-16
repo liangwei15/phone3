@@ -1,0 +1,356 @@
+[ 2018-04-28T22:38:24+08:00 ] ::1 /che/index.php/Admin/Index/shijiayuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002761s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0225s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_shijia shijia WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and shijia.did=displacement.did and zhuangtai=1  ) ORDER BY yid desc  [ RunTime:0.0229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\c5810f7dc7d3da29113da339d8818178.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.269914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.270157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2018-04-28T22:38:24+08:00 ] ::1 /che/index.php/Admin/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2018-04-28T22:38:30+08:00 ] ::1 /che/index.php/Admin/Index/form-amazeui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2018-04-28T22:38:32+08:00 ] ::1 /che/index.php/Admin/Index/brondlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0225s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_carbrand` LIMIT 1   [ RunTime:0.0217s ]
+SQL: SELECT * FROM `sw_carbrand` LIMIT 0,10   [ RunTime:0.0216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2018-04-28T22:38:40+08:00 ] ::1 /che/index.php/Admin/Index/modellist?id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( id='22' ) LIMIT 1   [ RunTime:0.0211s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0213s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_carmodel` WHERE ( bid='22' ) LIMIT 1   [ RunTime:0.0209s ]
+SQL: SELECT * FROM `sw_carmodel` WHERE ( bid='22' ) LIMIT 0,10   [ RunTime:0.0214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000554s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000953s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2018-04-28T22:38:54+08:00 ] ::1 /che/index.php/Admin/Index/modellist?id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( id='22' ) LIMIT 1   [ RunTime:0.0228s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0229s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_carmodel` WHERE ( bid='22' ) LIMIT 1   [ RunTime:0.0229s ]
+SQL: SELECT * FROM `sw_carmodel` WHERE ( bid='22' ) LIMIT 0,10   [ RunTime:0.0224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001499s ]
+
+[ 2018-04-28T22:39:06+08:00 ] ::1 /che/index.php/Admin/Index/displacementlist?id=106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `sw_carmodel` WHERE ( mid='106' ) LIMIT 1   [ RunTime:0.0223s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0227s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_displacement` WHERE ( mid='106' ) LIMIT 1   [ RunTime:0.0223s ]
+SQL: SELECT * FROM `sw_displacement` WHERE ( mid='106' ) LIMIT 0,10   [ RunTime:0.0228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2018-04-28T22:39:13+08:00 ] ::1 /che/index.php/Admin/Index/brondlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_carbrand` LIMIT 1   [ RunTime:0.0222s ]
+SQL: SELECT * FROM `sw_carbrand` LIMIT 0,10   [ RunTime:0.0222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2018-04-28T22:39:23+08:00 ] ::1 /che/index.php/Admin/Index/addcomponents.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000859s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004266s ]
+
+[ 2018-04-28T22:39:25+08:00 ] ::1 /che/index.php/Admin/Index/brondlist2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_carbrand` LIMIT 1   [ RunTime:0.0225s ]
+SQL: SELECT * FROM `sw_carbrand` LIMIT 0,10   [ RunTime:0.0228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000882s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001571s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001849s ]
+
+[ 2018-04-28T22:39:28+08:00 ] ::1 /che/index.php/Admin/Index/modellist2?id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( id='22' ) LIMIT 1   [ RunTime:0.0225s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0228s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_carmodel` WHERE ( bid='22' ) LIMIT 1   [ RunTime:0.0225s ]
+SQL: SELECT * FROM `sw_carmodel` WHERE ( bid='22' ) LIMIT 0,10   [ RunTime:0.0225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002540s ]
+
+[ 2018-04-28T22:39:29+08:00 ] ::1 /che/index.php/Admin/Index/displacementlist2?id=106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `sw_carmodel` WHERE ( mid='106' ) LIMIT 1   [ RunTime:0.0228s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_displacement` WHERE ( mid='106' ) LIMIT 1   [ RunTime:0.0228s ]
+SQL: SELECT * FROM `sw_displacement` WHERE ( mid='106' ) LIMIT 0,10   [ RunTime:0.0228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000425s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000767s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001477s ]
+
+[ 2018-04-28T22:39:32+08:00 ] ::1 /che/index.php/Admin/Index/componentsadd?id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002694s ]
+SQL: SHOW COLUMNS FROM `sw_component` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `sw_component`  [ RunTime:0.0217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2018-04-28T22:39:41+08:00 ] ::1 /che/index.php/Admin/Index/shijiayuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0232s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0232s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_shijia shijia WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and shijia.did=displacement.did and zhuangtai=1  ) ORDER BY yid desc  [ RunTime:0.0235s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\c5810f7dc7d3da29113da339d8818178.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2018-04-28T22:39:45+08:00 ] ::1 /che/index.php/Admin/Index/brondlist2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002868s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_carbrand` LIMIT 1   [ RunTime:0.0227s ]
+SQL: SELECT * FROM `sw_carbrand` LIMIT 0,10   [ RunTime:0.0227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000530s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000987s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2018-04-28T22:39:49+08:00 ] ::1 /che/index.php/Admin/Index/shijiayuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0216s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0215s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_shijia shijia WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and shijia.did=displacement.did and zhuangtai=1  ) ORDER BY yid desc  [ RunTime:0.0220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000875s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\c5810f7dc7d3da29113da339d8818178.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+

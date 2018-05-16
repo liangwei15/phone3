@@ -1,0 +1,92 @@
+/*
+	作者：张津瑞
+	时间：2018-04-16
+	描述：(c) Copyright 2018 睿腾网络. All Rights Reserved. 
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.top {
+	background: #282727;
+	width: 100%;
+	color: white;
+	padding: 3% 0 3% 0;
+}
+
+.return {
+	padding-left: 35%;
+}
+
+.return_1 {
+	padding-left: 5%;
+	font-size: 25px;
+}
+
+.bg {
+	background: #efedf4;
+}
+
+.center {
+	margin-top: 4%;
+	background: white;
+	line-height: 50px;
+}
+
+.center_1 {
+	border-bottom: 1px solid #282727;
+	height: 50px;
+}
+
+.center_2 {
+	border-bottom: 1px solid #282727;
+}
+.clear{clear: both}
+.center_1_1 {
+	font-size: 14px;
+	margin-left: 3%;
+	float: left;
+	line-height: 50px;
+}
+
+.center_1_2 {
+	float: right;
+	margin-right: 3%;
+	line-height: 50px;
+}
+
+.center_2_1 {
+	font-weight: bold;
+	margin-left: 5%;
+}
+
+.center_2_2 {
+	color: #7D7D7D;
+	margin-left: 5%;
+}
+.center_3{
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+}
+.center_3_1 {
+	margin-left: 3%;
+	float: left;
+}
+
+.center_3_2 {
+	float: left;
+	margin-left: 7%;
+}
+
+.center_3_3 {
+	margin-left: 2%;
+	float: left;
+}

@@ -1,0 +1,746 @@
+[ 2018-04-24T15:16:38+08:00 ] ::1 /che/index.php/Admin/Index/shijiayuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025875s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:11.2244s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:3.0108s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_shijia shijia WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and shijia.did=displacement.did and zhuangtai=1  ) ORDER BY yid desc  [ RunTime:45.0262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\c5810f7dc7d3da29113da339d8818178.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.280204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.280367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.029860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028749s ]
+
+[ 2018-04-24T15:16:39+08:00 ] ::1 /che/index.php/Admin/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+
+[ 2018-04-24T15:19:50+08:00 ] ::1 /che/index.php/Admin/Index/shijiayuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0271s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_shijia shijia WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and shijia.did=displacement.did and zhuangtai=1  ) ORDER BY yid desc  [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\c5810f7dc7d3da29113da339d8818178.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001827s ]
+
+[ 2018-04-24T15:19:52+08:00 ] ::1 /che/index.php/Admin/Index/baoyangyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `sw_dc` [ RunTime:0.0337s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0571s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0307s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_by bys WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and bys.did=displacement.did and zhuangtai!=0 ) ORDER BY ybid desc  [ RunTime:0.0406s ]
+SQL: SELECT * FROM `sw_dc` WHERE ( dcid in (10,14,12,13) )  [ RunTime:0.0264s ]
+SQL: SHOW COLUMNS FROM `sw_ybj` [ RunTime:0.0255s ]
+SQL: SELECT * FROM sw_ybj ybj,sw_xuqiu xuqiu,sw_dc dc WHERE ( ybj.ybid=xuqiu.ybid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0655s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\0f0bceaf251077b25085e14f1da621c9.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2018-04-24T15:20:01+08:00 ] ::1 /che/index.php/Admin/Index/weixiuyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0235s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0239s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_wx wx WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and wx.did=displacement.did and zhuangtai!=0 ) ORDER BY wid desc  [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `sw_wx` [ RunTime:0.0279s ]
+SQL: SELECT * FROM sw_wx wx,sw_xuqiu xuqiu,sw_dc dc WHERE ( wx.wid=xuqiu.wid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\ec64581f2c769adbd9349033cb027758.php 第 317 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2018-04-24T15:20:06+08:00 ] ::1 /che/index.php/Admin/Index/baoyangyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002425s ]
+SQL: SHOW COLUMNS FROM `sw_dc` [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0267s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0231s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_by bys WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and bys.did=displacement.did and zhuangtai!=0 ) ORDER BY ybid desc  [ RunTime:0.0284s ]
+SQL: SELECT * FROM `sw_dc` WHERE ( dcid in (10,14,12,13) )  [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `sw_ybj` [ RunTime:0.0248s ]
+SQL: SELECT * FROM sw_ybj ybj,sw_xuqiu xuqiu,sw_dc dc WHERE ( ybj.ybid=xuqiu.ybid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\0f0bceaf251077b25085e14f1da621c9.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2018-04-24T15:20:15+08:00 ] ::1 /che/index.php/Admin/Index/weixiuyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0244s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0237s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_wx wx WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and wx.did=displacement.did and zhuangtai!=0 ) ORDER BY wid desc  [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `sw_wx` [ RunTime:0.0276s ]
+SQL: SELECT * FROM sw_wx wx,sw_xuqiu xuqiu,sw_dc dc WHERE ( wx.wid=xuqiu.wid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\ec64581f2c769adbd9349033cb027758.php 第 317 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2018-04-24T15:20:42+08:00 ] ::1 /che/index.php/Admin/Index/baoyangyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `sw_dc` [ RunTime:0.0246s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0243s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0245s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_by bys WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and bys.did=displacement.did and zhuangtai!=0 ) ORDER BY ybid desc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `sw_dc` WHERE ( dcid in (10,14,12,13) )  [ RunTime:0.0303s ]
+SQL: SHOW COLUMNS FROM `sw_ybj` [ RunTime:0.0240s ]
+SQL: SELECT * FROM sw_ybj ybj,sw_xuqiu xuqiu,sw_dc dc WHERE ( ybj.ybid=xuqiu.ybid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\0f0bceaf251077b25085e14f1da621c9.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2018-04-24T15:20:51+08:00 ] ::1 /che/index.php/Admin/Index/shijiayuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0246s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0277s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_shijia shijia WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and shijia.did=displacement.did and zhuangtai=1  ) ORDER BY yid desc  [ RunTime:0.0253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000844s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001505s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\c5810f7dc7d3da29113da339d8818178.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001754s ]
+
+[ 2018-04-24T15:20:58+08:00 ] ::1 /che/index.php/Admin/Index/baoyangyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+SQL: SHOW COLUMNS FROM `sw_dc` [ RunTime:0.0311s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0282s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0255s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_by bys WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and bys.did=displacement.did and zhuangtai!=0 ) ORDER BY ybid desc  [ RunTime:0.0254s ]
+SQL: SELECT * FROM `sw_dc` WHERE ( dcid in (10,14,12,13) )  [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `sw_ybj` [ RunTime:0.0246s ]
+SQL: SELECT * FROM sw_ybj ybj,sw_xuqiu xuqiu,sw_dc dc WHERE ( ybj.ybid=xuqiu.ybid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\0f0bceaf251077b25085e14f1da621c9.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001752s ]
+
+[ 2018-04-24T15:21:03+08:00 ] ::1 /che/index.php/Admin/Index/shijiayuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0322s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_shijia shijia WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and shijia.did=displacement.did and zhuangtai=1  ) ORDER BY yid desc  [ RunTime:0.0266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000478s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\c5810f7dc7d3da29113da339d8818178.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002592s ]
+
+[ 2018-04-24T15:21:14+08:00 ] ::1 /che/index.php/Admin/Index/shijiayuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0262s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_shijia shijia WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and shijia.did=displacement.did and zhuangtai=1  ) ORDER BY yid desc  [ RunTime:0.0483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\c5810f7dc7d3da29113da339d8818178.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2018-04-24T15:21:14+08:00 ] ::1 /che/index.php/Admin/Index/baoyangyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `sw_dc` [ RunTime:0.0248s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0251s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_by bys WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and bys.did=displacement.did and zhuangtai!=0 ) ORDER BY ybid desc  [ RunTime:0.0246s ]
+SQL: SELECT * FROM `sw_dc` WHERE ( dcid in (10,14,12,13) )  [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `sw_ybj` [ RunTime:0.0250s ]
+SQL: SELECT * FROM sw_ybj ybj,sw_xuqiu xuqiu,sw_dc dc WHERE ( ybj.ybid=xuqiu.ybid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\0f0bceaf251077b25085e14f1da621c9.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2018-04-24T15:21:15+08:00 ] ::1 /che/index.php/Admin/Index/baoyangyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `sw_dc` [ RunTime:0.0288s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0279s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_by bys WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and bys.did=displacement.did and zhuangtai!=0 ) ORDER BY ybid desc  [ RunTime:0.0322s ]
+SQL: SELECT * FROM `sw_dc` WHERE ( dcid in (10,14,12,13) )  [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `sw_ybj` [ RunTime:0.0276s ]
+SQL: SELECT * FROM sw_ybj ybj,sw_xuqiu xuqiu,sw_dc dc WHERE ( ybj.ybid=xuqiu.ybid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000553s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000990s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\0f0bceaf251077b25085e14f1da621c9.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2018-04-24T15:21:15+08:00 ] ::1 /che/index.php/Admin/Index/shijiayuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0319s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_shijia shijia WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and shijia.did=displacement.did and zhuangtai=1  ) ORDER BY yid desc  [ RunTime:0.0304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000567s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001343s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\c5810f7dc7d3da29113da339d8818178.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2018-04-24T15:21:15+08:00 ] ::1 /che/index.php/Admin/Index/shijiayuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0257s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0264s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_shijia shijia WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and shijia.did=displacement.did and zhuangtai=1  ) ORDER BY yid desc  [ RunTime:0.0248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\c5810f7dc7d3da29113da339d8818178.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2018-04-24T15:21:16+08:00 ] ::1 /che/index.php/Admin/Index/baoyangyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `sw_dc` [ RunTime:0.0751s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0785s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0249s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_by bys WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and bys.did=displacement.did and zhuangtai!=0 ) ORDER BY ybid desc  [ RunTime:0.0334s ]
+SQL: SELECT * FROM `sw_dc` WHERE ( dcid in (10,14,12,13) )  [ RunTime:0.0345s ]
+SQL: SHOW COLUMNS FROM `sw_ybj` [ RunTime:0.0275s ]
+SQL: SELECT * FROM sw_ybj ybj,sw_xuqiu xuqiu,sw_dc dc WHERE ( ybj.ybid=xuqiu.ybid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000657s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\0f0bceaf251077b25085e14f1da621c9.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2018-04-24T15:21:17+08:00 ] ::1 /che/index.php/Admin/Index/baoyangyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `sw_dc` [ RunTime:0.0305s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0270s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_by bys WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and bys.did=displacement.did and zhuangtai!=0 ) ORDER BY ybid desc  [ RunTime:0.0366s ]
+SQL: SELECT * FROM `sw_dc` WHERE ( dcid in (10,14,12,13) )  [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `sw_ybj` [ RunTime:0.0281s ]
+SQL: SELECT * FROM sw_ybj ybj,sw_xuqiu xuqiu,sw_dc dc WHERE ( ybj.ybid=xuqiu.ybid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\0f0bceaf251077b25085e14f1da621c9.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2018-04-24T15:21:17+08:00 ] ::1 /che/index.php/Admin/Index/baoyangyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `sw_dc` [ RunTime:0.0558s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0339s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0337s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_by bys WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and bys.did=displacement.did and zhuangtai!=0 ) ORDER BY ybid desc  [ RunTime:0.0523s ]
+SQL: SELECT * FROM `sw_dc` WHERE ( dcid in (10,14,12,13) )  [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `sw_ybj` [ RunTime:0.0270s ]
+SQL: SELECT * FROM sw_ybj ybj,sw_xuqiu xuqiu,sw_dc dc WHERE ( ybj.ybid=xuqiu.ybid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\0f0bceaf251077b25085e14f1da621c9.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2018-04-24T15:21:18+08:00 ] ::1 /che/index.php/Admin/Index/baoyangyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `sw_dc` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0277s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0267s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_by bys WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and bys.did=displacement.did and zhuangtai!=0 ) ORDER BY ybid desc  [ RunTime:0.0414s ]
+SQL: SELECT * FROM `sw_dc` WHERE ( dcid in (10,14,12,13) )  [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `sw_ybj` [ RunTime:0.0270s ]
+SQL: SELECT * FROM sw_ybj ybj,sw_xuqiu xuqiu,sw_dc dc WHERE ( ybj.ybid=xuqiu.ybid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\0f0bceaf251077b25085e14f1da621c9.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2018-04-24T15:21:28+08:00 ] ::1 /che/index.php/Admin/Index/weixiuyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0344s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0295s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_wx wx WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and wx.did=displacement.did and zhuangtai!=0 ) ORDER BY wid desc  [ RunTime:0.0363s ]
+SQL: SHOW COLUMNS FROM `sw_wx` [ RunTime:0.0304s ]
+SQL: SELECT * FROM sw_wx wx,sw_xuqiu xuqiu,sw_dc dc WHERE ( wx.wid=xuqiu.wid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\ec64581f2c769adbd9349033cb027758.php 第 317 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2018-04-24T15:21:30+08:00 ] ::1 /che/index.php/Admin/Index/baoyangyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `sw_dc` [ RunTime:0.0303s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0327s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_by bys WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and bys.did=displacement.did and zhuangtai!=0 ) ORDER BY ybid desc  [ RunTime:0.0245s ]
+SQL: SELECT * FROM `sw_dc` WHERE ( dcid in (10,14,12,13) )  [ RunTime:0.0234s ]
+SQL: SHOW COLUMNS FROM `sw_ybj` [ RunTime:0.0253s ]
+SQL: SELECT * FROM sw_ybj ybj,sw_xuqiu xuqiu,sw_dc dc WHERE ( ybj.ybid=xuqiu.ybid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\0f0bceaf251077b25085e14f1da621c9.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2018-04-24T15:21:35+08:00 ] ::1 /che/index.php/Admin/Index/shijiayuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000317s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0245s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0240s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_shijia shijia WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and shijia.did=displacement.did and zhuangtai=1  ) ORDER BY yid desc  [ RunTime:0.0239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000507s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000924s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\c5810f7dc7d3da29113da339d8818178.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2018-04-24T15:21:38+08:00 ] ::1 /che/index.php/Admin/Index/weixiuyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000623s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0282s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0382s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_wx wx WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and wx.did=displacement.did and zhuangtai!=0 ) ORDER BY wid desc  [ RunTime:0.0268s ]
+SQL: SHOW COLUMNS FROM `sw_wx` [ RunTime:0.0249s ]
+SQL: SELECT * FROM sw_wx wx,sw_xuqiu xuqiu,sw_dc dc WHERE ( wx.wid=xuqiu.wid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\ec64581f2c769adbd9349033cb027758.php 第 317 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001988s ]
+
+[ 2018-04-24T15:23:34+08:00 ] ::1 /che/index.php/Admin/Index/weixiuyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0315s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0262s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_wx wx WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and wx.did=displacement.did and zhuangtai!=0 ) ORDER BY wid desc  [ RunTime:0.0264s ]
+SQL: SHOW COLUMNS FROM `sw_wx` [ RunTime:0.0269s ]
+SQL: SELECT * FROM sw_wx wx,sw_xuqiu xuqiu,sw_dc dc WHERE ( wx.wid=xuqiu.wid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\ec64581f2c769adbd9349033cb027758.php 第 345 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2018-04-24T15:24:05+08:00 ] ::1 /che/index.php/Admin/Index/baoyangyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `sw_dc` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0265s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0250s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_by bys WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and bys.did=displacement.did and zhuangtai!=0 ) ORDER BY ybid desc  [ RunTime:0.0255s ]
+SQL: SELECT * FROM `sw_dc` WHERE ( dcid in (10,14,12,13) )  [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `sw_ybj` [ RunTime:0.0262s ]
+SQL: SELECT * FROM sw_ybj ybj,sw_xuqiu xuqiu,sw_dc dc WHERE ( ybj.ybid=xuqiu.ybid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\0f0bceaf251077b25085e14f1da621c9.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2018-04-24T15:24:27+08:00 ] ::1 /che/index.php/Admin/Index/weixiuyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0288s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0237s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_wx wx WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and wx.did=displacement.did and zhuangtai!=0 ) ORDER BY wid desc  [ RunTime:0.0406s ]
+SQL: SHOW COLUMNS FROM `sw_wx` [ RunTime:0.0249s ]
+SQL: SELECT * FROM sw_wx wx,sw_xuqiu xuqiu,sw_dc dc WHERE ( wx.wid=xuqiu.wid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\ec64581f2c769adbd9349033cb027758.php 第 345 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2018-04-24T15:24:31+08:00 ] ::1 /che/index.php/Admin/Index/baoyangyuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `sw_dc` [ RunTime:0.0269s ]
+SQL: SHOW COLUMNS FROM `sw_by` [ RunTime:0.0256s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0241s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_by bys WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and bys.did=displacement.did and zhuangtai!=0 ) ORDER BY ybid desc  [ RunTime:0.0257s ]
+SQL: SELECT * FROM `sw_dc` WHERE ( dcid in (10,14,12,13) )  [ RunTime:0.0255s ]
+SQL: SHOW COLUMNS FROM `sw_ybj` [ RunTime:0.0300s ]
+SQL: SELECT * FROM sw_ybj ybj,sw_xuqiu xuqiu,sw_dc dc WHERE ( ybj.ybid=xuqiu.ybid and xuqiu.dcid=dc.dcid )  [ RunTime:0.0388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\0f0bceaf251077b25085e14f1da621c9.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2018-04-24T20:57:55+08:00 ] ::1 /che/index.php/Admin/Index/shijiayuyue.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018686s ]
+SQL: SHOW COLUMNS FROM `sw_displacement` [ RunTime:0.0232s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0234s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel,sw_displacement displacement,sw_shijia shijia WHERE ( carbrand.id=carmodel.bid  and carmodel.mid =displacement.mid and shijia.did=displacement.did and zhuangtai=1  ) ORDER BY yid desc  [ RunTime:0.0233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\che\Application\Runtime\Cache\Admin\c5810f7dc7d3da29113da339d8818178.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029368s ]
+
+[ 2018-04-24T20:57:56+08:00 ] ::1 /che/index.php/Admin/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+

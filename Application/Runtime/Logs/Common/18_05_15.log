@@ -1,0 +1,36 @@
+[ 2018-05-15T22:07:46+08:00 ] ::1 /phone2/index.php/Index/First/fid/'3'.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+ERR: 无法加载模块:Index
+
+[ 2018-05-15T22:08:06+08:00 ] ::1 /phone2/index.php/Index/First/fid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载模块:Index
+
+[ 2018-05-15T22:08:24+08:00 ] ::1 /phone2/index.php/First/fid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:First
+
+[ 2018-05-15T22:12:25+08:00 ] ::1 /phone2/index.php/First/fid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+ERR: 无法加载模块:First
+
+[ 2018-05-15T22:12:26+08:00 ] ::1 /phone2/index.php/First/fid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:First
+
+[ 2018-05-15T22:12:27+08:00 ] ::1 /phone2/index.php/First/fid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+ERR: 无法加载模块:First
+
